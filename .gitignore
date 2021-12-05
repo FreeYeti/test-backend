@@ -149,6 +149,7 @@ env/
 build/
 develop-eggs/
 dist/
+dist-scripts/
 downloads/
 eggs/
 lib/

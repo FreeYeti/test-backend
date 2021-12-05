@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@babel/cli", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:7.16.0"],
             ["@babel/core", "npm:7.16.0"],
             ["@babel/node", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:7.16.0"],
             ["@babel/plugin-proposal-class-properties", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:7.16.0"],
@@ -119,6 +120,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [
             "@types/openapi-types",
             "openapi-types"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@babel/cli", [
+        ["npm:7.16.0", {
+          "packageLocation": "./.yarn/cache/@babel-cli-npm-7.16.0-7b81778ac5-7055b9d0ad.zip/node_modules/@babel/cli/",
+          "packageDependencies": [
+            ["@babel/cli", "npm:7.16.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:7.16.0", {
+          "packageLocation": "./.yarn/__virtual__/@babel-cli-virtual-a2d9d817b7/0/cache/@babel-cli-npm-7.16.0-7b81778ac5-7055b9d0ad.zip/node_modules/@babel/cli/",
+          "packageDependencies": [
+            ["@babel/cli", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:7.16.0"],
+            ["@babel/core", "npm:7.16.0"],
+            ["@nicolo-ribaudo/chokidar-2", "npm:2.1.8-no-fsevents.3"],
+            ["@types/babel__core", null],
+            ["chokidar", "npm:3.5.2"],
+            ["commander", "npm:4.1.1"],
+            ["convert-source-map", "npm:1.8.0"],
+            ["fs-readdir-recursive", "npm:1.1.0"],
+            ["glob", "npm:7.2.0"],
+            ["make-dir", "npm:2.1.0"],
+            ["slash", "npm:2.0.0"],
+            ["source-map", "npm:0.5.7"]
+          ],
+          "packagePeers": [
+            "@babel/core",
+            "@types/babel__core"
           ],
           "linkType": "HARD",
         }]
@@ -2834,6 +2866,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["@nicolo-ribaudo/chokidar-2", [
+        ["npm:2.1.8-no-fsevents.3", {
+          "packageLocation": "./.yarn/cache/@nicolo-ribaudo-chokidar-2-npm-2.1.8-no-fsevents.3-79ca8bfcef-ee55cc9241.zip/node_modules/@nicolo-ribaudo/chokidar-2/",
+          "packageDependencies": [
+            ["@nicolo-ribaudo/chokidar-2", "npm:2.1.8-no-fsevents.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["@npmcli/fs", [
         ["npm:1.0.0", {
           "packageLocation": "./.yarn/cache/@npmcli-fs-npm-1.0.0-92194475f3-f2b4990107.zip/node_modules/@npmcli/fs/",
@@ -5147,6 +5188,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["fs-minipass", "npm:2.1.0"],
             ["minipass", "npm:3.1.5"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["fs-readdir-recursive", [
+        ["npm:1.1.0", {
+          "packageLocation": "./.yarn/cache/fs-readdir-recursive-npm-1.1.0-258e230a4b-29d50f3d21.zip/node_modules/fs-readdir-recursive/",
+          "packageDependencies": [
+            ["fs-readdir-recursive", "npm:1.1.0"]
           ],
           "linkType": "HARD",
         }]
@@ -8412,6 +8462,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["root-workspace-0b6124", "workspace:."],
+            ["@babel/cli", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:7.16.0"],
             ["@babel/core", "npm:7.16.0"],
             ["@babel/node", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:7.16.0"],
             ["@babel/plugin-proposal-class-properties", "virtual:dc3fc578bfa5e06182a4d2be39ede0bc5b74940b1ffe0d70c26892ab140a4699787750fba175dc306292e80b4aa2c8c5f68c2a821e69b2c37e360c0dff36ff66#npm:7.16.0"],
@@ -8696,6 +8747,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["slash", [
+        ["npm:2.0.0", {
+          "packageLocation": "./.yarn/cache/slash-npm-2.0.0-69009eac54-512d435073.zip/node_modules/slash/",
+          "packageDependencies": [
+            ["slash", "npm:2.0.0"]
+          ],
+          "linkType": "HARD",
+        }],
         ["npm:3.0.0", {
           "packageLocation": "./.yarn/cache/slash-npm-3.0.0-b87de2279a-94a93fff61.zip/node_modules/slash/",
           "packageDependencies": [

@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 yarn init-db
-yarn start
+yarn prod
